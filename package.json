@@ -50,7 +50,7 @@
   "license": "ISC",
   "packageManager": "pnpm@11.4.0",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy": "^3.1.6",
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
