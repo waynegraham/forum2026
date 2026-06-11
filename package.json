@@ -56,7 +56,7 @@
     "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
     "@tailwindcss/postcss": "^4.3.0",
     "cross-env": "^10.1.0",
-    "cssnano": "^8.0.1",
+    "cssnano": "^8.0.2",
     "eleventy-plugin-hubspot": "^2.0.0",
     "eslint": "^10.4.1",
     "git-branch": "^2.0.1",
