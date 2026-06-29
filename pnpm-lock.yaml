@@ -81,8 +81,8 @@ importers:
         specifier: ^17.13.0
         version: 17.13.0
       tailwindcss:
-        specifier: ^4.3.1
-        version: 4.3.1
+        specifier: ^4.3.2
+        version: 4.3.2
     devDependencies:
       husky:
         specifier: ^9.1.7
@@ -101,7 +101,7 @@ importers:
         version: 40.0.0(stylelint@17.13.0)
       stylelint-config-tailwindcss:
         specifier: ^1.0.1
-        version: 1.0.1(stylelint@17.13.0)(tailwindcss@4.3.1)
+        version: 1.0.1(stylelint@17.13.0)(tailwindcss@4.3.2)
 
 packages:
 
@@ -2939,6 +2939,9 @@ packages:
 
   tailwindcss@4.3.1:
     resolution: {integrity: sha512-hk+TB1m+K8CYNrP6rjQaq/Y+4Zylwpa87mLYBKCunwnnQ9p+fHb7kmSfGqyEJoxF/O6CDyABWVFEafNSYKll+Q==}
+
+  tailwindcss@4.3.2:
+    resolution: {integrity: sha512-WtctNNSH8A9jlMIqxzuYumOHU5uGZyRv0Q5svQl+oEPy5w84YpBxdb7MdqyiSPQge5jTJ6zFQLq0PFygdccSBA==}
 
   tapable@2.3.3:
     resolution: {integrity: sha512-uxc/zpqFg6x7C8vOE7lh6Lbda8eEL9zmVm/PLeTPBRhh1xCgdWaQ+J1CUieGpIfm2HdtsUpRv+HshiasBMcc6A==}
@@ -6046,10 +6049,10 @@ snapshots:
       stylelint: 17.13.0
       stylelint-config-recommended: 18.0.0(stylelint@17.13.0)
 
-  stylelint-config-tailwindcss@1.0.1(stylelint@17.13.0)(tailwindcss@4.3.1):
+  stylelint-config-tailwindcss@1.0.1(stylelint@17.13.0)(tailwindcss@4.3.2):
     dependencies:
       stylelint: 17.13.0
-      tailwindcss: 4.3.1
+      tailwindcss: 4.3.2
 
   stylelint@17.13.0:
     dependencies:
@@ -6126,6 +6129,8 @@ snapshots:
       strip-ansi: 6.0.1
 
   tailwindcss@4.3.1: {}
+
+  tailwindcss@4.3.2: {}
 
   tapable@2.3.3: {}
 
