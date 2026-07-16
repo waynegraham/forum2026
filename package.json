@@ -54,7 +54,7 @@
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
-    "@tailwindcss/postcss": "^4.3.2",
+    "@tailwindcss/postcss": "^4.3.3",
     "cross-env": "^10.1.0",
     "cssnano": "^8.0.2",
     "eleventy-plugin-hubspot": "^2.0.0",
