@@ -5,14 +5,7 @@ layout: base.njk
 <article class="post-page">
     <section class="page-hero relative flex min-h-124 items-center justify-center overflow-hidden bg-primary-container">
         {% if image %}
-            {% set imageGravityPosition = "center center" %}
-            {% if imageGravity == "top" %}
-                {% set imageGravityPosition = "center top" %}
-            {% elif imageGravity == "bottom" %}
-                {% set imageGravityPosition = "center bottom" %}
-            {% elif imageGravity == "middle" or imageGravity == "center" %}
-                {% set imageGravityPosition = "center center" %}
-            {% endif %}
+            {% set imageGravityPosition = imageGravity | imageGravityPosition %}
             <div class="absolute inset-0 z-0">
                 <div class="page-hero-overlay absolute inset-0 z-10"></div>
                 <img class="post-hero-image h-full w-full object-cover" style="--post-hero-image-position: {{ imageGravityPosition }};" alt="" src="{{ image }}">

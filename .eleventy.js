@@ -18,6 +18,7 @@ const eleventyPluginHubspot = require('eleventy-plugin-hubspot');
 
 const { IdAttributePlugin, HtmlBasePlugin } = require('@11ty/eleventy');
 const { getDeploymentPathPrefix } = require('./_config/deployment-path-prefix.cjs');
+const { imageGravityPosition } = require('./_config/image-gravity.cjs');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setTemplateFormats(['njk', 'js', 'md', 'html']);
@@ -101,6 +102,7 @@ module.exports = function (eleventyConfig) {
   );
 
   // Filters
+  eleventyConfig.addFilter('imageGravityPosition', imageGravityPosition);
   eleventyConfig.addFilter('usd', function (value) {
     if (typeof value !== 'number') {
       return 'Invalid Input';

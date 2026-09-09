@@ -4,6 +4,29 @@ import { readFile } from 'node:fs/promises';
 import test from 'node:test';
 
 const require = createRequire(import.meta.url);
+const { imageGravityPosition } = require('../_config/image-gravity.cjs');
+
+test('image gravity supports vertical and two-axis percentages with safe defaults', () => {
+  for (const [input, expected] of [
+    ['top', 'center top'],
+    ['bottom', 'center bottom'],
+    ['center', 'center center'],
+    ['middle', 'center center'],
+    ['0%', 'center 0%'],
+    ['100%', 'center 100%'],
+    ['65.5%', 'center 65.5%'],
+    [' 40%   65% ', '40% 65%'],
+    [undefined, 'center center'],
+    [65, 'center center'],
+    ['101%', 'center center'],
+    ['-5%', 'center center'],
+    ['50% 50% 50%', 'center center'],
+    ['50%; color: red', 'center center'],
+  ]) {
+    assert.equal(imageGravityPosition(input), expected);
+  }
+});
+
 const { getDeploymentPathPrefix } = require('../_config/deployment-path-prefix.cjs');
 const sitePathPrefix = getDeploymentPathPrefix().replace(/\/$/, '');
 

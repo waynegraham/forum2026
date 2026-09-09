@@ -255,6 +255,12 @@ Image gravity:
 
 - Use `imageGravity` when the hero crop needs to favor a specific part of the image.
 - Common values are `top`, `center`, and `bottom`.
+- Use a quoted percentage for finer vertical alignment, such as `imageGravity: "65%"`.
+  `0%` aligns the top, `50%` centers the image, and `100%` aligns the bottom.
+- Use two quoted percentages for horizontal and vertical alignment, respectively:
+  `imageGravity: "40% 65%"`.
+- Percentages from `0%` to `100%`, including decimals, work in both post and page heroes.
+  The visible effect depends on how much the image is cropped at the current screen size.
 - Omit `imageGravity` when the default crop works.
 
 ## Styling

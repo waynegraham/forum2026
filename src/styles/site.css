@@ -552,6 +552,100 @@ body {
   box-shadow: var(--shadow-card);
 }
 
+.post-content .fellows-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.fellow-card {
+  min-width: 0;
+  padding: 1.25rem;
+  border: 1px solid var(--color-outline-variant);
+  border-radius: 1.25rem;
+  background: var(--color-surface-bright);
+}
+
+.fellow-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-height: 5.5rem;
+}
+
+.post-content .fellow-card h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.post-content .fellow-headshot,
+.fellow-initials {
+  display: block;
+  flex: 0 0 4.5rem;
+  width: 4.5rem;
+  height: 5.5rem;
+  border-radius: 0.75rem;
+  background: var(--color-surface-container-low);
+}
+
+.post-content .fellow-headshot {
+  object-fit: contain;
+  box-shadow: none;
+}
+
+.fellow-initials {
+  display: grid;
+  place-items: center;
+  color: var(--color-primary);
+  font-family: var(--font-headline);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.post-content .fellow-affiliation {
+  min-height: 3em;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.fellow-bio {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-outline-variant);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.fellow-bio summary {
+  cursor: pointer;
+  color: var(--color-primary);
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+.fellow-bio summary:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.fellow-bio > p {
+  margin-top: 1rem;
+}
+
+.fellow-bio-hide,
+.fellow-bio[open] .fellow-bio-show {
+  display: none;
+}
+
+.fellow-bio[open] .fellow-bio-hide {
+  display: inline;
+}
+
 .styleguide-shell {
   position: relative;
   overflow: hidden;
