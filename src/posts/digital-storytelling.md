@@ -32,7 +32,7 @@ Jessie McCarty is a writer and digital asset management cataloger. They serve as
 
 <section class="fellow-card">
 <div class="fellow-card-header">
-<span class="fellow-initials" aria-hidden="true">MR</span>
+<img class="fellow-headshot" src="/static/fellows/rahaman.png" alt="Dr. Mohammad Masudur Rahaman" eleventy:widths="160,320" sizes="72px" loading="lazy" decoding="async">
 <h2>Mohammad Masudur Rahaman</h2>
 </div>
 <p class="fellow-affiliation">Asian University for Women</p>
@@ -130,7 +130,7 @@ Madonna Faustino is an information professional and Access/Information Services 
 
 <section class="fellow-card">
 <div class="fellow-card-header">
-<span class="fellow-initials" aria-hidden="true">NL</span>
+<img class="fellow-headshot" src="/static/fellows/larrondo.jpg" alt="Dr. Nico Larrondo" eleventy:widths="160,320" sizes="72px" loading="lazy" decoding="async">
 <h2>Nico Larrondo</h2>
 </div>
 <p class="fellow-affiliation">PUC-Chile</p>
