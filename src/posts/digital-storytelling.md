@@ -21,7 +21,7 @@ We are excited to introduce the 2026 Digital Storytelling Fellows and welcome th
 <img class="fellow-headshot" src="/static/fellows/mcCarty.jpg" alt="Jessie McCarty" eleventy:widths="160,320" sizes="72px" loading="lazy" decoding="async">
 <h2>Jessie McCarty</h2>
 </div>
-<p class="fellow-affiliation">James Hardie North America</p>
+<p class="fellow-affiliation">The Illinois Humanities; James Hardie North America</p>
 <details class="fellow-bio">
 <summary><span class="fellow-bio-show">Read biography</span><span class="fellow-bio-hide">Hide biography</span><span class="sr-only">: Jessie McCarty</span></summary>
 
@@ -133,7 +133,7 @@ Madonna Faustino is an information professional and Access/Information Services 
 <img class="fellow-headshot" src="/static/fellows/larrondo.jpg" alt="Dr. Nico Larrondo" eleventy:widths="160,320" sizes="72px" loading="lazy" decoding="async">
 <h2>Nico Larrondo</h2>
 </div>
-<p class="fellow-affiliation">PUC-Chile</p>
+<p class="fellow-affiliation">Pontificia Universidad Católica de Chile</p>
 <details class="fellow-bio">
 <summary><span class="fellow-bio-show">Read biography</span><span class="fellow-bio-hide">Hide biography</span><span class="sr-only">: Nico Larrondo</span></summary>
 
